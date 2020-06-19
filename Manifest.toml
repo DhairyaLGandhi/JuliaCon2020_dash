@@ -443,9 +443,7 @@ version = "0.8.2"
 
 [[LLVM]]
 deps = ["CEnum", "Libdl", "Printf", "Unicode"]
-git-tree-sha1 = "65834c986eeb3a40ed3fecd982d257f6392b4d39"
-repo-rev = "dg/heroku_error"
-repo-url = "https://github.com/dhairyagandhi96/LLVM.jl.git"
+git-tree-sha1 = "72fc0a39d5899091ff2d4cdaa64cb5e4862cf813"
 uuid = "929cbde3-209d-540e-8aea-75f648917ca0"
 version = "1.5.2"
 
