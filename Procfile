@@ -1,1 +1,1 @@
-web: julia --project utrain.jl $PORT
+web: ./run.sh
