@@ -1,2 +1,1 @@
-bash: chmod +x run.sh
-bash: ./run.sh
+web: julia --project=. utrain.jl $PORT
