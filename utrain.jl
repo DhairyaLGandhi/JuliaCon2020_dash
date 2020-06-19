@@ -106,7 +106,6 @@ callback!(app, callid"imgpath.value => imgpathdiv.children") do input_value
       end
     end
   end
-  # @show input_value
 
   isurl(input_value) || any(endswith.(input_value, [".jpg", ".jpeg", ".png"])) || return
 
