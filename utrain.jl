@@ -117,6 +117,7 @@ callback!(app, callid"imgpath.value => imgpathdiv.children") do input_value
   else
     joinpath("assets", input_value)
   end
+  @show img_path
 
   !isfile(img_path) && return html_h1("Invalid File Name")
   
