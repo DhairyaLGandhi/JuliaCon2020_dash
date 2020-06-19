@@ -1,1 +1,1 @@
-web: LD_DEBUG=all julia --project utrain.jl $PORT
+web: julia --project utrain.jl $PORT
